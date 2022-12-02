@@ -298,8 +298,9 @@ footer {
     height: 50px;
     background-color: rgb(236, 84, 73);
 }
-
-@media screen and (max-width: 648px) {}
+@media screen 
+and (min-width: 648px) 
+and (max-width: 1000px){
     .Header h1 {
         font-size: 40px;
     }
@@ -417,3 +418,4 @@ footer {
         padding-left: 30px;
         padding-right: 30px;
     }
+}
