@@ -236,3 +236,8 @@ li {
 .Email-Address {
     cursor: pointer;
 }
+/* Applies To Footer */
+footer {
+    height: 50px;
+    background-color: rgb(236,84,73);
+}
