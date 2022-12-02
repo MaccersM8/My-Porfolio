@@ -298,27 +298,39 @@ footer {
     height: 50px;
     background-color: rgb(236, 84, 73);
 }
-@media screen 
-and (min-width: 648px) 
-and (max-width: 1000px){
+
+/* Changes When Media Query Applies */
+@media screen and (min-width: 648px) and (max-width: 1000px) {
+
+    /* Applies To The Main Header (Maisie McDonald) */
     .Header h1 {
         font-size: 40px;
     }
+
+    /* Applies To The Navigational Links */
     .Header a {
         font-size: 20px;
     }
+
+    /* Applies To The Profile Image */
     .Profile-Image img {
         height: 200px;
         width: 200px;
     }
+
+    /* Applies To The Profile Image */
     .Profile-Image {
         position: absolute;
         top: 250px;
         left: 550px;
     }
+
+    /* Applies To The Portfolio Sub-Heading */
     .Sub-Heading {
         font-size: 30px;
     }
+
+    /* Applies To About Me Header */
     .About-Me-Section h2 {
         font-size: 35px;
         font-family: Arial, Helvetica, sans-serif;
@@ -326,18 +338,26 @@ and (max-width: 1000px){
         padding-left: 50px;
         text-align: right;
     }
+
+    /* Applies To About Me Vertical Line */
     .About-Me-Vertical-Line {
         border-right: 5px solid rgb(236, 84, 73);
         margin: 20px 50px;
         height: 480px;
     }
+
+    /* Applies To About Me Body Of Text */
     .About-Me-Text {
         font-size: 17px;
     }
+
+    /* Applies To Welcome Message In About Me Section*/
     .Welcome-Message {
         font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
     }
+
+    /* Applies To The My Work Header */
     .My-Work-Section h2 {
         color: rgb(236, 84, 73);
         font-size: 35px;
@@ -346,74 +366,106 @@ and (max-width: 1000px){
         padding-left: 80px;
         text-align: right;
     }
+
+    /*Applies To My Work Vertical Line */
     .My-Work-Vertical-Line {
         display: inline-block;
         border-right: 5px solid rgb(236, 84, 73);
         margin: 20px 35px;
         height: 1085px;
     }
+
+    /* Applies To My Work Placeholders */
     .My-Work-Placeholders {
         display: grid;
         grid-template-rows: 500px 300px 300px;
         grid-template-columns: 300px 300px;
     }
+
+    /* Applies To Horiseon Heading */
     .Placeholder-Heading-Horiseon {
         height: 50px;
         width: 235px;
         font-size: 25px;
     }
+
+    /* Applies To All Other Placeholder Headings */
     .Placeholder-Heading {
         height: 50px;
         width: 188px;
         font-size: 18px;
         padding: 8px;
     }
+
+    /* Applies To Horiseon Placeholder */
     #Horiseon-Placeholder {
         border: 5px solid rgb(236, 84, 73);
     }
+
+    /* Applies To LED Wall Placeholder */
     #LED-Wall-Placeholder {
         border: 5px solid rgb(236, 84, 73);
     }
+
+    /* Applies To Run Buddy Placeholder */
     #Run-Buddy-Placeholder {
         border: 5px solid rgb(236, 84, 73);
     }
+
+    /* Applies To Calculator Placeholder */
     #Calculator-Placeholder {
         border: 5px solid rgb(236, 84, 73);
     }
+
+    /* Applies To Pastels Puzzles Placeholder */
     #Pastels-Puzzles-Placeholder {
         border: 5px solid rgb(236, 84, 73)
     }
+
+    /* Applies To Contact Me Heading */
     .Contact-Me-Section h2 {
         font-size: 35px;
         padding-left: 35px;
     }
+
+    /* Applies To Contact Me Vertical Line */
     .Contact-Me-Vertical-Line {
         border-right: 5px solid rgb(236, 84, 73);
         margin: 20px 35px;
         height: 120px;
     }
+
+    /* Applies To GitHub Link */
     .GitHub-Profile a {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         text-decoration: underline;
     }
+
+    /* Applies To Email Address Link */
     .Email-Address a {
         color: rgb(236, 84, 73);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         text-decoration: underline;
     }
+
+    /* Applies To Contact Information Section */
     .Contact-Information {
         color: rgb(236, 84, 73);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         text-decoration: underline;
     }
+
+    /* Applies To GitHub Profile Link */
     .GitHub-Profile {
         padding-left: 30px;
         padding-right: 10px;
         cursor: pointer;
     }
+
+    /* Applies To Phone Number Link */
     .Phone-Number {
         padding-left: 30px;
         padding-right: 30px;
