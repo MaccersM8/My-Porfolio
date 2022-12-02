@@ -171,13 +171,14 @@ li {
 .Placeholder-Heading-Horiseon {
     background-color: rgb(236,84,73);
     height: 60px;
-    width: 250px;
+    width: 400px;
     color: white;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     position: relative;
-    top: 300px
+    top: 300px;
+    left: 0;
 }
 /* Applies To All Other Placeholder Headings */
 .Placeholder-Heading {
@@ -232,9 +233,21 @@ li {
     padding-right: 50px;
     cursor: pointer;
 }
+.GitHub-Profile a {
+    color: rgb(236,84,73);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
 /* Applies To Portfolio Email Address */
 .Email-Address {
     cursor: pointer;
+}
+.Email-Address a{
+    color: rgb(236,84,73);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
 }
 /* Applies To Footer */
 footer {
