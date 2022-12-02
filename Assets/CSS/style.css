@@ -64,22 +64,38 @@ li {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(236,84,73);
 }
-
-
-/* Testing Phase */
-h3 {
-    float: left;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 30px;
+/* Applies To About Me Vertical Line */
+.About-Me-Vertical-Line {
+    display: inline-block;
+    border-right: 10px solid rgb(236,84,73);
+    margin: 35px 50px;
+    height: 345px;
+}
+/* Applies To About Me Header */
+.About-Me-Section h2 {
     color: rgb(236,84,73);
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35px;
+    padding-left: 75px;
     text-align: right;
 }
-.Vertical-Line {
-    display: inline-block;
-    border-right: 10px solid rgb(236,84,73);
-    margin: 0 10px;
-    height: 300px;
+/* Applies To Welcome Message In About Me Section*/
+.Welcome-Message {
+    color: rgb(236,84,73);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Applies To About Me Body Of Text */
+.About-Me-Text {
+    color: rgb(236,84,73);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35px;
+    padding-right: 35px;
+}
+/* Applies To About Me Section */
+.About-Me-Section {
+    display: flex;
+
 }
