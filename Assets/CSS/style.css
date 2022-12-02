@@ -64,6 +64,10 @@ li {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(236,84,73);
 }
+/* Applies To About Me Section */
+.About-Me-Section {
+    display: flex;
+}
 /* Applies To About Me Vertical Line */
 .About-Me-Vertical-Line {
     display: inline-block;
@@ -94,8 +98,8 @@ li {
     padding-top: 35px;
     padding-right: 35px;
 }
-/* Applies To About Me Section */
-.About-Me-Section {
+/* Applies To The My Work Section */
+.My-Work-Section {
     display: flex;
 }
 /* Applies To The My Work Header */
@@ -187,7 +191,48 @@ li {
     position: relative;
     top: 120px;
 }
-/* Applies To The My Work Section */
-.My-Work-Section {
+/* Applies To Contact Me Section */
+.Contact-Me-Section {
     display: flex;
+}
+/* Applies To Contact Me Header */
+.Contact-Me-Section h2 {
+    color: rgb(236,84,73);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35px;
+    padding-left: 40px;
+    text-align: right;
+}
+/* Applies To Contact Me Vertical Line */
+.Contact-Me-Vertical-Line {
+    display: inline-block;
+    border-right: 10px solid rgb(236,84,73);
+    margin: 25px 50px;
+    height: 120px;
+}
+/* Applies To Contact Information Section */
+.Contact-Information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(236,84,73);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+/* Applies To Portfolio Owner Phone Number */
+.Phone-Number {
+    padding-left: 50px;
+    padding-right: 100px;
+}
+/* Applies To Portfolio Owner GitHub Profile */
+.GitHub-Profile {
+    padding-left: 100px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+/* Applies To Portfolio Email Address */
+.Email-Address {
+    cursor: pointer;
 }
