@@ -1,128 +1,148 @@
-/* Applies To The Whole CSS Document DONE*/
+/* Applies To The Whole CSS Document */
 * {
     margin: 0;
 }
+
 /* Applies To The Sub-Heading Image */
 .Background-Image {
     height: 450px;
     width: 100%;
 }
-/* Applies To The Portfolio Owner (Maisie McDonald) DONE*/
+
+/* Applies To The Portfolio Owner (Maisie McDonald) */
 .Main-Header {
     float: left;
     list-style: none;
 }
-/* Applies To The Navigational Links DONE */
+
+/* Applies To The Navigational Links */
 .Navigational-Links {
     float: Right;
     padding-left: 40px;
     padding-top: 70px;
     padding-right: 30px;
 }
-/* Applies To The List Items DONE */
+
+/* Applies To The List Items */
 li {
     list-style: none;
 }
-/* Applies To The Whole Header Element DONE */
+
+/* Applies To The Whole Header Element */
 .Header {
     height: 100px;
-    background-color: rgb(236,84,73);
+    background-color: rgb(236, 84, 73);
 }
-/* Applies To The Main Header (Maisie McDonald) DONE */
+
+/* Applies To The Main Header (Maisie McDonald) */
 .Header h1 {
-    color: rgb(251,225,202);
+    color: rgb(251, 225, 202);
     padding-top: 23px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
-/* Applies To The Navigational Links DONE */
+
+/* Applies To The Navigational Links */
 .Header a {
-    color: rgb(251,225,202);
+    color: rgb(251, 225, 202);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-decoration: none;
 }
+
 /* Applies To The Profile Image */
 .Profile-Image {
     position: absolute;
     top: 180px;
     left: 900px;
 }
+
 /* Applies To The Profile Image */
 .Profile-Image img {
     width: 250px;
     height: 250px;
-    border: 10px solid rgb(236,84,73);
-    background-color: rgb(236,84,73);
+    border: 10px solid rgb(236, 84, 73);
+    background-color: rgb(236, 84, 73);
 }
+
 /* Applies To The Portfolio Sub-Heading */
 .Sub-Heading {
-    padding:0;
+    padding: 0;
     text-align: center;
-    color: rgb(251,225,202);
+    color: rgb(251, 225, 202);
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(236,84,73);
+    background-color: rgb(236, 84, 73);
 }
+
 /* Applies To The Body Of The Web Page */
 body {
-    background-color: rgb(251,225,202);
+    background-color: rgb(251, 225, 202);
 }
+
 /* Applies To About Me Section */
 .About-Me-Section {
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
+
 /* Applies To About Me Vertical Line */
 .About-Me-Vertical-Line {
     display: inline-block;
-    border-right: 10px solid rgb(236,84,73);
+    border-right: 10px solid rgb(236, 84, 73);
     margin: 35px 50px;
     height: 380px;
 }
+
 /* Applies To About Me Header */
 .About-Me-Section h2 {
-    color: rgb(236,84,73);
+    color: rgb(236, 84, 73);
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 35px;
     padding-left: 75px;
     text-align: right;
 }
+
 /* Applies To Welcome Message In About Me Section*/
 .Welcome-Message {
-    color: rgb(236,84,73);
+    color: rgb(236, 84, 73);
     font-size: 40px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Applies To About Me Body Of Text */
 .About-Me-Text {
-    color: rgb(236,84,73);
+    color: rgb(236, 84, 73);
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 35px;
     padding-right: 35px;
 }
+
 /* Applies To The My Work Section */
 .My-Work-Section {
     display: flex;
 }
+
 /* Applies To The My Work Header */
 .My-Work-Section h2 {
-    color: rgb(236,84,73);
+    color: rgb(236, 84, 73);
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 35px;
     padding-left: 101px;
     text-align: right;
-} 
+}
+
 /* Applies To The My Work Vertical Line */
 .My-Work-Vertical-Line {
     display: inline-block;
-    border-right: 10px solid rgb(236,84,73);
+    border-right: 10px solid rgb(236, 84, 73);
     margin: 20px 40px;
     height: 1085px;
 }
+
 /* Applies To The Different Placeholders In The My Work Section */
 .My-Work-Placeholders {
     display: grid;
@@ -136,48 +156,54 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 10px;
-    }
+}
+
 /* Applies To The Main Placeholder (Horiseon) */
 #Horiseon-Placeholder {
     background-image: url(../Images/Horiseon-Image.jpg);
     grid-area: Horiseon;
     cursor: pointer;
-    border: 10px solid rgb(236,84,73);
+    border: 10px solid rgb(236, 84, 73);
 }
+
 /* Applies To The LED Wall Placeholder */
 #LED-Wall-Placeholder {
     background-image: url(../Images/LED-Wall.jpg);
     grid-area: LED-Wall;
     cursor: pointer;
-    border: 10px solid rgb(236,84,73);
+    border: 10px solid rgb(236, 84, 73);
 }
+
 /* Applies To The Run-Buddy Placeholder */
 #Run-Buddy-Placeholder {
     background-image: url(../Images/Run-Buddy.jpg);
     grid-area: Run-Buddy;
     cursor: pointer;
-    border: 10px solid rgb(236,84,73);
+    border: 10px solid rgb(236, 84, 73);
 }
+
 /* Applies To The Calculator Placeholder */
 #Calculator-Placeholder {
     background-image: url(../Images/Calculator.jpg);
     grid-area: Calculator;
     cursor: pointer;
-    border: 10px solid rgb(236,84,73);
+    border: 10px solid rgb(236, 84, 73);
 }
+
 /* Applies To The Pastels Puzzle Placeholder */
 #Pastels-Puzzles-Placeholder {
     background-image: url(../Images/Pastel-Puzzles.jpg);
     grid-area: Pastels;
     cursor: pointer;
-    border: 10px solid rgb(236,84,73)
+    border: 10px solid rgb(236, 84, 73)
 }
+
 /* Applies To The Horiseon Placeholder Heading */
 .Placeholder-Heading-Horiseon {
-    background-color: rgb(236,84,73);
+    background-color: rgb(236, 84, 73);
     height: 60px;
     width: 400px;
-    color: rgb(251,225,202);
+    color: rgb(251, 225, 202);
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
@@ -185,79 +211,209 @@ body {
     top: 300px;
     left: 0;
 }
+
 /* Applies To All Other Placeholder Headings */
 .Placeholder-Heading {
-    background-color: rgb(236,84,73);
+    background-color: rgb(236, 84, 73);
     height: 60px;
     width: 250px;
-    color: rgb(251,225,202);
+    color: rgb(251, 225, 202);
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     position: relative;
     top: 120px;
 }
+
 /* Applies To Contact Me Section */
 .Contact-Me-Section {
     display: flex;
 }
+
 /* Applies To Contact Me Header */
 .Contact-Me-Section h2 {
-    color: rgb(236,84,73);
+    color: rgb(236, 84, 73);
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 35px;
     padding-left: 40px;
     text-align: right;
 }
+
 /* Applies To Contact Me Vertical Line */
 .Contact-Me-Vertical-Line {
     display: inline-block;
-    border-right: 10px solid rgb(236,84,73);
+    border-right: 10px solid rgb(236, 84, 73);
     margin: 25px 50px;
     height: 120px;
 }
+
 /* Applies To Contact Information Section */
 .Contact-Information {
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: rgb(236,84,73);
+    color: rgb(236, 84, 73);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-decoration: underline;
 }
+
 /* Applies To Portfolio Owner Phone Number */
 .Phone-Number {
     padding-left: 50px;
     padding-right: 100px;
 }
+
 /* Applies To Portfolio Owner GitHub Profile */
 .GitHub-Profile {
     padding-left: 100px;
     padding-right: 50px;
     cursor: pointer;
 }
+
 /* Applies To GitHub Link */
 .GitHub-Profile a {
-    color: rgb(236,84,73);
+    color: rgb(236, 84, 73);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-decoration: underline;
 }
+
 /* Applies To Portfolio Email Address */
 .Email-Address {
     cursor: pointer;
 }
+
 /* Applies To Email Address Link */
-.Email-Address a{
-    color: rgb(236,84,73);
+.Email-Address a {
+    color: rgb(236, 84, 73);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-decoration: underline;
 }
+
 /* Applies To Footer */
 footer {
     height: 50px;
-    background-color: rgb(236,84,73);
+    background-color: rgb(236, 84, 73);
 }
+
+@media screen and (max-width: 648px) {}
+    .Header h1 {
+        font-size: 40px;
+    }
+    .Header a {
+        font-size: 20px;
+    }
+    .Profile-Image img {
+        height: 200px;
+        width: 200px;
+    }
+    .Profile-Image {
+        position: absolute;
+        top: 250px;
+        left: 550px;
+    }
+    .Sub-Heading {
+        font-size: 30px;
+    }
+    .About-Me-Section h2 {
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 35px;
+        padding-left: 50px;
+        text-align: right;
+    }
+    .About-Me-Vertical-Line {
+        border-right: 5px solid rgb(236, 84, 73);
+        margin: 20px 50px;
+        height: 480px;
+    }
+    .About-Me-Text {
+        font-size: 17px;
+    }
+    .Welcome-Message {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .My-Work-Section h2 {
+        color: rgb(236, 84, 73);
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 35px;
+        padding-left: 80px;
+        text-align: right;
+    }
+    .My-Work-Vertical-Line {
+        display: inline-block;
+        border-right: 5px solid rgb(236, 84, 73);
+        margin: 20px 35px;
+        height: 1085px;
+    }
+    .My-Work-Placeholders {
+        display: grid;
+        grid-template-rows: 500px 300px 300px;
+        grid-template-columns: 300px 300px;
+    }
+    .Placeholder-Heading-Horiseon {
+        height: 50px;
+        width: 235px;
+        font-size: 25px;
+    }
+    .Placeholder-Heading {
+        height: 50px;
+        width: 188px;
+        font-size: 18px;
+        padding: 8px;
+    }
+    #Horiseon-Placeholder {
+        border: 5px solid rgb(236, 84, 73);
+    }
+    #LED-Wall-Placeholder {
+        border: 5px solid rgb(236, 84, 73);
+    }
+    #Run-Buddy-Placeholder {
+        border: 5px solid rgb(236, 84, 73);
+    }
+    #Calculator-Placeholder {
+        border: 5px solid rgb(236, 84, 73);
+    }
+    #Pastels-Puzzles-Placeholder {
+        border: 5px solid rgb(236, 84, 73)
+    }
+    .Contact-Me-Section h2 {
+        font-size: 35px;
+        padding-left: 35px;
+    }
+    .Contact-Me-Vertical-Line {
+        border-right: 5px solid rgb(236, 84, 73);
+        margin: 20px 35px;
+        height: 120px;
+    }
+    .GitHub-Profile a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .Email-Address a {
+        color: rgb(236, 84, 73);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .Contact-Information {
+        color: rgb(236, 84, 73);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .GitHub-Profile {
+        padding-left: 30px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+    .Phone-Number {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
