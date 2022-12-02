@@ -1,23 +1,85 @@
+/* Applies To The Whole CSS Document DONE*/
 * {
-  box-sizing: border-box;
+    margin: 0;
+}
+/* Applies To The Sub-Heading Image */
+.Background-Image {
+    height: 450px;
+    width: 100%;
+}
+/* Applies To The Portfolio Owner (Maisie McDonald) DONE*/
+.Main-Header {
+    float: left;
+    list-style: none;
+}
+/* Applies To The Navigational Links DONE */
+.Navigational-Links {
+    float: Right;
+    padding-left: 40px;
+    padding-top: 70px;
+    padding-right: 30px;
+}
+/* Applies To The List Items DONE */
+li {
+    list-style: none;
+}
+/* Applies To The Whole Header Element DONE */
+.Header {
+    height: 100px;
+    background-color: rgb(236,84,73);
+}
+/* Applies To The Main Header (Maisie McDonald) DONE */
+.Header h1 {
+    color: white;
+    padding-top: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+/* Applies To The Navigational Links DONE */
+.Header a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+/* Applies To The Profile Image */
+.Profile-Image {
+    position: absolute;
+    top: 180px;
+    left: 900px;
+}
+/* Applies To The Profile Image */
+.Profile-Image img {
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(236,84,73);
+    background-color: rgb(236,84,73);
+}
+/* Applies To The Portfolio Sub-Heading */
+.Sub-Heading {
+    padding:0;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236,84,73);
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+/* Testing Phase */
+h3 {
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 30px;
+    color: rgb(236,84,73);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
 }
-
-p {
-  margin: 0;
+.Vertical-Line {
+    display: inline-block;
+    border-right: 10px solid rgb(236,84,73);
+    margin: 0 10px;
+    height: 300px;
 }
