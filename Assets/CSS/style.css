@@ -97,5 +97,97 @@ li {
 /* Applies To About Me Section */
 .About-Me-Section {
     display: flex;
-
+}
+/* Applies To The My Work Header */
+.My-Work-Section h2 {
+    color: rgb(236,84,73);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35px;
+    padding-left: 101px;
+    text-align: right;
+} 
+/* Applies To The My Work Vertical Line */
+.My-Work-Vertical-Line {
+    display: inline-block;
+    border-right: 10px solid rgb(236,84,73);
+    margin: 20px 40px;
+    height: 1085px;
+}
+/* Applies To The Different Placeholders In The My Work Section */
+.My-Work-Placeholders {
+    display: grid;
+    grid-template-rows: 500px 300px 300px;
+    grid-template-columns: 475px 475px;
+    grid-template-areas:
+        "Horiseon    Horiseon"
+        "LED-Wall    Calculator"
+        "Pastels     Run-Buddy";
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    }
+/* Applies To The Main Placeholder (Horiseon) */
+#Horiseon-Placeholder {
+    background-image: url(../Images/Horiseon-Image.jpg);
+    grid-area: Horiseon;
+    cursor: pointer;
+    border: 10px solid rgb(236,84,73);
+}
+/* Applies To The LED Wall Placeholder */
+#LED-Wall-Placeholder {
+    background-image: url(../Images/LED-Wall.jpg);
+    grid-area: LED-Wall;
+    cursor: pointer;
+    border: 10px solid rgb(236,84,73);
+}
+/* Applies To The Run-Buddy Placeholder */
+#Run-Buddy-Placeholder {
+    background-image: url(../Images/Run-Buddy.jpg);
+    grid-area: Run-Buddy;
+    cursor: pointer;
+    border: 10px solid rgb(236,84,73);
+}
+/* Applies To The Calculator Placeholder */
+#Calculator-Placeholder {
+    background-image: url(../Images/Calculator.jpg);
+    grid-area: Calculator;
+    cursor: pointer;
+    border: 10px solid rgb(236,84,73);
+}
+/* Applies To The Pastels Puzzle Placeholder */
+#Pastels-Puzzles-Placeholder {
+    background-image: url(../Images/Pastel-Puzzles.jpg);
+    grid-area: Pastels;
+    cursor: pointer;
+    border: 10px solid rgb(236,84,73)
+}
+/* Applies To The Horiseon Placeholder Heading */
+.Placeholder-Heading-Horiseon {
+    background-color: rgb(236,84,73);
+    height: 60px;
+    width: 250px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    position: relative;
+    top: 300px
+}
+/* Applies To All Other Placeholder Headings */
+.Placeholder-Heading {
+    background-color: rgb(236,84,73);
+    height: 60px;
+    width: 250px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    position: relative;
+    top: 120px;
+}
+/* Applies To The My Work Section */
+.My-Work-Section {
+    display: flex;
 }
