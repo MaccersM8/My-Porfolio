@@ -30,14 +30,14 @@ li {
 }
 /* Applies To The Main Header (Maisie McDonald) DONE */
 .Header h1 {
-    color: white;
+    color: rgb(251,225,202);
     padding-top: 23px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
 /* Applies To The Navigational Links DONE */
 .Header a {
-    color: white;
+    color: rgb(251,225,202);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-decoration: none;
@@ -59,21 +59,26 @@ li {
 .Sub-Heading {
     padding:0;
     text-align: center;
-    color: white;
+    color: rgb(251,225,202);
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(236,84,73);
 }
+/* Applies To The Body Of The Web Page */
+body {
+    background-color: rgb(251,225,202);
+}
 /* Applies To About Me Section */
 .About-Me-Section {
     display: flex;
+    padding-bottom: 30px;
 }
 /* Applies To About Me Vertical Line */
 .About-Me-Vertical-Line {
     display: inline-block;
     border-right: 10px solid rgb(236,84,73);
     margin: 35px 50px;
-    height: 345px;
+    height: 380px;
 }
 /* Applies To About Me Header */
 .About-Me-Section h2 {
@@ -87,7 +92,7 @@ li {
 /* Applies To Welcome Message In About Me Section*/
 .Welcome-Message {
     color: rgb(236,84,73);
-    font-size: 20px;
+    font-size: 40px;
     font-family:Arial, Helvetica, sans-serif;
 }
 /* Applies To About Me Body Of Text */
@@ -172,7 +177,7 @@ li {
     background-color: rgb(236,84,73);
     height: 60px;
     width: 400px;
-    color: white;
+    color: rgb(251,225,202);
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
@@ -185,7 +190,7 @@ li {
     background-color: rgb(236,84,73);
     height: 60px;
     width: 250px;
-    color: white;
+    color: rgb(251,225,202);
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
@@ -233,6 +238,7 @@ li {
     padding-right: 50px;
     cursor: pointer;
 }
+/* Applies To GitHub Link */
 .GitHub-Profile a {
     color: rgb(236,84,73);
     font-family: Arial, Helvetica, sans-serif;
@@ -243,6 +249,7 @@ li {
 .Email-Address {
     cursor: pointer;
 }
+/* Applies To Email Address Link */
 .Email-Address a{
     color: rgb(236,84,73);
     font-family: Arial, Helvetica, sans-serif;
